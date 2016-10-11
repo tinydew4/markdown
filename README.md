@@ -1,13 +1,13 @@
-Learn Markdown
+마크다운 알아보기
 ========
 
-You may have heard about Markdown, if you have it's a good thing.
+운이 좋다면, 마크다운에 대해 들어본 적이 있을 것 입니다.
 
-Markdown is a plain text formatting syntax designed so that it can optionally be converted to HTML.
+마크다운은 임의로 HTML 변환할 수 있도록 설계된 일반 텍스트 구문입니다.
 
-In this book, you'll learn how to write document using the markdown syntax.
+이 책에서 마크다운 구문을 사용하여 문서를 작성하는 방법을 배울 것 입니다.
 
-[![Figure 1](./assets/preview.png)](./assets/preview.png)
+[![그림 1](./assets/preview.png)](./assets/preview.png)
 
-Figure 1: Example of markdown with associated output document on the right.
+그림 1: 마크다운과 우측 관련 문서의 예.
 

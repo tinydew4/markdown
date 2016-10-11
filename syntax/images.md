@@ -1,34 +1,34 @@
 # Images
 
 ```markdown
-# Inline
-![Alternative text](/path/to/img.jpg "Optional title")
+# 인라인
+![대체 텍스트](/path/to/img.jpg "선택적인 제목")
 
-# Reference
-![Alternative text][id]
-[id]: url/to/image  "Optional title"
+# 참조
+![대체 텍스트][id]
+[id]: url/to/image  "선택적인 제목"
 ```
-As you may have noticed, images in  Markdown are very similar to links. The difference is that:
-* the square brackets must be prefixed with an exclamation mark and
-* inside they may have some alternative text. A description of the image, which is displayed if the image can't be loaded.
+눈치챘겠지만 마크다운의 이미지는 연결과 매우 유사합니다. 차이점은 다음과 같습니다:
+* 대괄호는 느낌표로 시작해야하며
+* 그 안에는 몇가지 대체 텍스트가 있을 수 있습니다. 이미지를 로드할 수 없는 경우에 표시되는 이미지의 설명입니다.
 
 ---
 
-Here's a quiz about markdown images.
+마크다운 이미지에 대한 퀴즈입니다.
 
-Select the valid images:
-- [ ] `[Google logo](https://www.google.ru/logo.png)`
+유효한 이미지를 선택하세요:
+- [ ] `[구글 로고](https://www.google.ru/logo.png)`
 - [x] `![](https://www.google.ru/logo.png)`
 
-> Images must be prefixed with an exclamation mark.
-The alternative text and a title are optional.
+> 이미지는 느낌표로 시작해야합니다.
+대체 텍스트와 제목은 선택사항입니다.
 
-What is true about the following line: ```![Funny cat](http://cats.ru/funny.png "Share this")```
-- [x] if the url is 404, "Funny cat" will be displayed
-- [ ] exclamation mark can be omitted in this case
-- [ ] if the url is 404, "Share this" will be displayed
-- [x] on mouse over the image "Share this" will be displayed
+다음중 옳은 것은 무엇입니까: ```![재미있는 고양이](http://cats.ru/funny.png "공유하기")```
+- [x] 주소가 404 라면 "재미있는 고양이" 가 보여질 것 입니다
+- [ ] 이 경우 느낌표는 생략될 수 있습니다
+- [ ] 주소가 404 라면 "공유하기" 가 보여질 것 입니다
+- [x] 이미지에 마우스를 올리면 "공유하기" 가 보여질 것 입니다
 
-> Similarly to links, images can have 3 parts: the alternative text, the url and a title. An exclamation mark is nesessary.
+> 연결과 유사하게 이미지는 3 부분을 가질 수 있습니다: 대체 텍스트, 주소, 제목. 느낌표는 필수입니다.
 
 ---

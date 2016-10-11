@@ -1,66 +1,66 @@
-# Titles
+# 제목
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
+마크다운 문서를 작성할 때 제목과 부제목을 추가해야합니다.
 
-Markdown supports two styles of headers, Setext and atx.
+마크다운은 Setext 와 atx 두가지 방식의 제목을 지원합니다.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
-
-```
-This is an H1
-=============
-
-This is an H2
--------------
-```
-
-Any number of underlining =’s or -’s will work.
-
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Setext 방식 제목은 등호 (1단계 제목) 또는 선 (2단계 제목) 을 사용한 밑줄입니다. 예시입니다:
 
 ```
-# This is an H1
+이것은 H1 입니다
+================
 
-## This is an H2
+이것은 H2 입니다
+----------------
+```
 
-###### This is an H6
+= 또는 - 밑줄은 개수와 상관없이 작동합니다.
+
+Atx 방식 제목은 줄의 처음에 1-6 단계에 대응하는 1-6 개의 해시 문자를 사용합니다. 예시입니다:
+
+```
+# 이것은 H1 입니다
+
+## 이것은 H2 입니다
+
+###### 이것은 H6 입니다
 ```
 
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+선택적으로 atx 방식 제목을 "닫을" 수 있습니다. 이것은 순전히 보여주기 용입니다 — 더 잘보인다고 생각하면 이것을 사용할 수 있습니다. 닫는 해시는 여는 해시의 수와 일치할 필요는 없습니다. (여는 해시의 수는 제목 단계를 결정합니다.) :
 
 ```
-# This is an H1 #
+# 이것은 H1 입니다 #
 
-## This is an H2 ##
+## 이것은 H2 입니다 ##
 
-### This is an H3 ######
+### 이것은 H3 입니다 ######
 ```
 
 
 ---
 
-Here's a quiz about markdown titles.
+마크다운 제목에 관한 퀴즈입니다.
 
-Select the valid headers:
-- [x] `# hello`
-- [ ] `#hello`
+유효한 제목을 고르세요:
+- [x] `# 안녕`
+- [ ] `#안녕`
 
-> Headers need space between the hash characters and the text.
+> 제목은 해시 문자와 텍스트 사이에 공백이 필요합니다.
 
-Select the valid headers:
+유효한 제목을 고르세요:
 - [ ]  
 ```
-test
+연습
 ########
 ```
 - [x]   
 ```
-test
+연습
 =======
 ```
 
-> Only '=' and '-' are accepted for underlining an header.
+> 제목의 밑줄은 '=' 와 '-' 가 허용됩니다.
 
 ---
 

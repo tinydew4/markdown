@@ -1,55 +1,55 @@
-# Links
+# 연결
 
-Markdown supports two styles of links: inline and reference.
+마크다운은 두가지 방식의 연결을 지원합니다: 인라인과 참조.
 
-In both styles, the link text is delimited by [square brackets].
+두 방식에서 연결 텍스트는 [대괄호]로 구분됩니다.
 
-To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:
+인라인 연결을 생성하기 위해 연결 텍스트의 닫는 대괄호 바로 뒤에 일반 괄호 세트를 사용합니다. 괄호 안에는 연결을 원하는 지점의 주소를 넣습니다. 선택적으로 따옴표로 둘러싸인 제목을 넣을 수 있습니다. 예시 입니다:
 ```markdown
-[I'm an inline-style link](https://www.google.com)
+[인라인 방식 연결](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[제목이 있는 인라인 연결 링크](https://www.google.com "Google's Homepage")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[참조 방식 연결][Arbitrary case-insensitive reference text]
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[저장소 파일 상대 참조](../blob/master/LICENSE)
 ```
 
-Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
+참조 방식 연결은 대괄호 세트를 하나 더 사용합니다. 그 안에는 연결을 식별할 수 있는 라벨을 넣습니다:
 ```markdown
-This is [an example][id] reference-style link.
+이것은 참조 방식 연결 [예제][id]입니다.
 ```
 
-You can optionally use a space to separate the sets of brackets:
+괄호 세트를 구분하기 위해 선택적으로 공백을 사용할 수 있습니다:
 ```markdown
-This is [an example] [id] reference-style link.
+이것은 참조 방식 연결 [예제] [id]입니다.
 ```
 
-Then, anywhere in the document, you define your link label like this, on a line by itself:
+그런 다음, 문서의 아무곳에서나 이와 같이 연결 라벨을 한줄로 정의합니다:
 ```markdown
-[id]: http://example.com/  "Optional Title Here"
+[id]: http://example.com/  "제목 입력은 선택입니다"
 ```
 
-**GitHub** and **GitBook** supports URL autolinking. They will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL.
+**GitHub** 과 **GitBook** 은 주소 자동연결을 지원합니다. 그들은 표준 주소로 자동 연결 할 것 입니다. 그래서 (연결 텍스트 설정 대신) 주소로 연결하기 원한다면, 단순히 URL 을 입력할 수 있습니다. 그러면 그 주소에 대한 연결로 전환될 것 입니다.
 
 
 ---
 
-Here's a quiz about markdown links.
+마크다운 연결에 대한 퀴즈입니다.
 
-Select the valid links:
-- [x] `[a link](http://google.fr)`
-- [ ] `(a link)[http://google.fr]`
+유효한 연결을 선택하세요:
+- [x] `[연결](http://google.fr)`
+- [ ] `(연결)[http://google.fr]`
 
-> The link text is delimited by [square brackets].
+> 연결 텍스트는 [대괄호]로 구분됩니다.
 
-What are the correct informations from this link: ```[a link](http://google.fr "google")```
-- [ ] the link is https://google.fr
-- [x] the title of the link is "google"
-- [ ] it'll show the text "google"
-- [x] it'll show the text "a link"
+이 연결에서 올바른 정보는 무엇입니까: ```[연결](http://google.fr "구글")```
+- [ ] 연결은 https://google.fr 입니다
+- [x] 연결의 제목은 "구글" 입니다
+- [ ] "구글" 텍스트를 보여줄 것 입니다.
+- [x] "링크" 텍스트를 보여줄 것 입니다.
 
-> Links can have 3 parts: the text, the url and a title.
+> 링크는 3 부분을 가질 수 있습니다: 텍스트, 주소, 제목.
 
 ---
 

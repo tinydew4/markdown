@@ -1,30 +1,30 @@
-# Tables
+# 표
 
-Tables aren't part of the core Markdown spec, but they are part of GFM (GitHub Markdown) and Markdown Here supports them.
+표는 코어 마크다운 사양은 아니지만, GFM (GitHub 마크다운) 의 일부이며 이곳의 마크다운은 그것을 지원합니다.
 
-Here is an example of table with the output below:
+표의 예와 그 결과입니다:
 
-    | Tables        | Are           | Cool  |
-    | ------------- |:-------------:| -----:|
-    | col 3 is      | right-aligned | $1600 |
-    | col 2 is      | centered      |   $12 |
-    | zebra stripes | are neat      |    $1 |
+    | 표              | 는         | 멋집니다 |
+    | --------------- |:----------:| --------:|
+    | 3열은           | 우측정렬   |    $1600 |
+    | 2열은           | 중앙정렬   |      $12 |
+    | 얼룩말 줄무늬는 | 깔끔합니다 |       $1 |
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| 표              | 는         | 멋집니다 |
+| --------------- |:----------:| --------:|
+| 3열은           | 우측정렬   |    $1600 |
+| 2열은           | 중앙정렬   |      $12 |
+| 얼룩말 줄무늬는 | 깔끔합니다 |       $1 |
 
-Colons can be used to align columns.
+콜론은 열을 정렬하기 위해 사용할 수 있습니다.
 
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+외부 파이프 (|) 는 선택사항이며, 원시 마크다운을 예쁘게 줄세울 필요없습니다. 또한 인라인 마크다운을 사용할 수 있습니다.
 
-Example:
+예:
 
-    Markdown | Less | Pretty
+    마크다운 | 덜 | 예쁜
     --- | --- | ---
-    *Still* | `renders` | **nicely**
+    *여전히* | `렌더링` | **잘됩니다**
     1 | 2 | 3
 

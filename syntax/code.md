@@ -1,38 +1,38 @@
-# Code Blocks
+# 코드 블록
 
-Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally.
+미리 포맷된 코드 블록은 프로그래밍 또는 마크업 소스 코드에 대해 작성하는데 사용됩니다. 정상적인 단락을 형성하기보다 코드 블록의 줄은 문자 그대로 해석됩니다.
 
-Here is an example:
-
-```
-This is a code block
-```
-
-To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab.
-
-For example:
+예시입니다:
 
 ```
-This is a normal paragraph:
-
-    This is a code block.
+이것은 코드블록입니다
 ```
 
-You can also create code block separated by:
+마크다운에서 코드 블록을 만들기 위해 간단하게 블록의 매 줄마다 최소 4개의 공백 또는 1개의 탭으로 들여씁니다.
+
+예시입니다:
+
+```
+이것은 정상 단락입니:
+
+    이것은 코드블록입니다.
+```
+
+또한 다음으로 코드블록을 분리할 수 있습니다:
 
     ```
 
-### Inline code blocks
+### 인라인 코드 블록
 
-Inline code blocks can be written using: `
+인라인 코드 블록은 다음을 사용하여 작성할 수 있습니다: `
 
-For example:
+예시입니다:
 
-    This is a `inline code block`
+    이것은 `인라인 코드 블록` 입니다
 
-### Syntax highlighting
+### 구문 강조
 
-You can define the language to be used for syntax highlighting by adding the name on the opening tag. Example:
+여는 태그에 이름을 추가하여 구문 강조에 사용될 언어를 정의할 수 있습니다. 예시입니다:
 
     ```js
     var a = {};
